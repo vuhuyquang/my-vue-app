@@ -9,5 +9,9 @@ export default defineConfig({
     alias: {
       '@': resolve(__dirname, 'src')
     }
-  }
+  },
+  envDir: resolve(__dirname, './env'),
+  server: {
+    port: process.env.VITE_APP_PORT ? parseInt(process.env.VITE_APP_PORT) : 3000
+  },
 })
