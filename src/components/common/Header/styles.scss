@@ -1,19 +1,27 @@
-.ant-menu-horizontal {
-  border: none !important;
-}
+#header {
+  a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
 
-.ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected, .ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected {
-  color: #fdcb6e !important;
-}
+  .ant-menu-horizontal {
+    border: none !important;
+  }
 
-.ant-menu-light.ant-menu-horizontal >.ant-menu-item:hover::after, .ant-menu-light.ant-menu-horizontal >.ant-menu-submenu:hover::after, .ant-menu-light.ant-menu-horizontal >.ant-menu-item-active::after, .ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-active::after, .ant-menu-light.ant-menu-horizontal >.ant-menu-item-open::after, .ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-open::after {
-  border: none !important;
-}
+  .ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected,
+  .ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-selected {
+    color: #fdcb6e !important;
+  }
 
-:where(.css-dev-only-do-not-override-19iuou) a:active {
-  color: #fdcb6e;
-}
+  .ant-menu-light.ant-menu-horizontal>.ant-menu-item:hover::after,
+  .ant-menu-light.ant-menu-horizontal>.ant-menu-submenu:hover::after,
+  .ant-menu-light.ant-menu-horizontal>.ant-menu-item-active::after,
+  .ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-active::after,
+  .ant-menu-light.ant-menu-horizontal>.ant-menu-item-open::after,
+  .ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-open::after {
+    border: none !important;
+  }
 
-:where(.css-dev-only-do-not-override-19iuou) a:hover {
-  color: #fdcb6e;
+  a:active, a:hover {
+    color: #fdcb6e;
+  }
 }

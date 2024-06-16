@@ -3,7 +3,7 @@
     <Header />
     <a-layout>
       <a-layout-content class="p-8">
-        Content
+        <router-view></router-view>
       </a-layout-content>
     </a-layout>
   </a-layout>
