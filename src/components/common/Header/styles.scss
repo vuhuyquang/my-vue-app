@@ -1,0 +1,19 @@
+.ant-menu-horizontal {
+  border: none !important;
+}
+
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected, .ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected {
+  color: #fdcb6e !important;
+}
+
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item:hover::after, .ant-menu-light.ant-menu-horizontal >.ant-menu-submenu:hover::after, .ant-menu-light.ant-menu-horizontal >.ant-menu-item-active::after, .ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-active::after, .ant-menu-light.ant-menu-horizontal >.ant-menu-item-open::after, .ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-open::after {
+  border: none !important;
+}
+
+:where(.css-dev-only-do-not-override-19iuou) a:active {
+  color: #fdcb6e;
+}
+
+:where(.css-dev-only-do-not-override-19iuou) a:hover {
+  color: #fdcb6e;
+}

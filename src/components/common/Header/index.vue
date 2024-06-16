@@ -42,7 +42,7 @@
         </div>
         <div class="font-semibold tracking-[2px]">
           <div class="hidden sm:hidden md:hidden lg:flex">
-            <ul class="flex gap-[2rem]">
+            <ul class="flex gap-[2rem] mb-0">
               <li class="hover:text-[#fdcb6e] transition delay-[45ms]">
                 <RouterLink to="/">TRANG CHỦ</RouterLink>
               </li>
@@ -66,3 +66,5 @@
 <script lang="ts" setup>
 import { ShoppingFilled, HomeFilled, EnvironmentFilled, HeartFilled, CaretDownOutlined, MenuOutlined } from '@ant-design/icons-vue';
 </script>
+
+<style src="./styles.scss"></style>
