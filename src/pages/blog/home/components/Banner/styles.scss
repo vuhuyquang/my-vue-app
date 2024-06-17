@@ -20,5 +20,6 @@
 }
 
 .h-screen-minus-header {
-  height: calc(100vh - 76px);
+  height: calc(100vh - 76px) !important;
+  margin-top: 76px;
 }

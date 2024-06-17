@@ -1,5 +1,5 @@
 <template>
-  <a-layout class="h-[100vh] overflow-hidden">
+  <a-layout class="h-[100vh]">
     <Header />
     <a-layout class="container mx-auto w-screen max-w-full">
       <a-layout-content>
