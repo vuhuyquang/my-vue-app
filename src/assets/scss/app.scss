@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Thay đổi kiểu cuộn */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Tùy chỉnh giao diện thanh cuộn trình duyệt Chrome */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 15px;
+}

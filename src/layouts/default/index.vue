@@ -1,8 +1,8 @@
 <template>
   <a-layout class="h-[100vh] overflow-hidden">
     <Header />
-    <a-layout>
-      <a-layout-content class="p-8">
+    <a-layout class="container mx-auto w-screen max-w-full">
+      <a-layout-content>
         <router-view></router-view>
       </a-layout-content>
     </a-layout>

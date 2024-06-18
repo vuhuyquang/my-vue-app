@@ -1,17 +1,17 @@
 <template>
   <a-layout-header id="header">
-    <header class="fixed top-0 right-0 left-0 z-1030 drop-shadow-xl bg-white text-[14px] text-[black]">
-      <nav class="px-5 h-[76px] flex justify-between items-center cursor-pointer">
+    <!-- <header class="fixed top-0 right-0 left-0 z-1030 drop-shadow-xl bg-white text-[14px] text-[black]"> -->
+      <nav class="px-5 flex justify-between items-center cursor-pointer">
         <div class="grid grid-flow-col auto-cols-max gap-2 items-center">
           <img class="border-solid border-2 border-[#e84118] p-[1px] rounded-full h-[44px] w-[44px]" height="44"
             width="44" src="https://cache.giaohangtietkiem.vn/d/a0181819bd2da9ba11508583a25f3db5.png?width=44"
             alt="avatar" />
           <div class="flex flex-col leading-[1.75]">
             <span class="font-bold">Quang Vu Huy</span>
-            <div class="flex items-center gap-1">
+            <div class="flex items-center">
               <a-popover class="flex" placement="bottomLeft" title="Thông tin cá nhân">
-                <template #content class="flex gap-1">
-                  <div class="flex flex-col gap-1">
+                <template #content class="flex">
+                  <div class="flex flex-col">
                     <div class="flex gap-1">
                       <ShoppingFilled class="mt-1" />
                       <p>Làm việc tại <span class="font-bold">Giaohangtietkiem.vn</span></p>
@@ -59,7 +59,7 @@
           </div>
         </div>
       </nav>
-    </header>
+    <!-- </header> -->
   </a-layout-header>
 </template>
 
