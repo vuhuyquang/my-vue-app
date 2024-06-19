@@ -14,11 +14,14 @@ a {
 /* Thay đổi kiểu cuộn */
 html {
   scroll-behavior: smooth;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.5;
 }
 
 /* Tùy chỉnh giao diện thanh cuộn trình duyệt Chrome */
 ::-webkit-scrollbar {
   width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
