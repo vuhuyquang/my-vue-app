@@ -7,10 +7,6 @@ a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-// body {
-//   overflow-x: hidden;
-// }
-
 /* Thay đổi kiểu cuộn */
 html {
   scroll-behavior: smooth;
@@ -27,4 +23,8 @@ html {
 ::-webkit-scrollbar-thumb {
   background-color: #ccc;
   border-radius: 15px;
+}
+
+.ant-layout {
+  display: block !important;
 }
