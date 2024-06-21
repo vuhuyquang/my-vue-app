@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen w-full m-0 p-0">
+  <div id="banner" class="h-screen w-full m-0 p-0">
     <h1 class="text-center text-white project-name">Quag</h1>
     <div class="flex h-full w-full opacity-95">
       <div class="w-1/2 p-0">

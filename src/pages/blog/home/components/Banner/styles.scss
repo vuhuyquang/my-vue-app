@@ -19,7 +19,6 @@
   -webkit-text-stroke-color: white;
 }
 
-.h-screen-minus-header {
-  height: 100vh !important;
-  margin-top: 76px;
+#banner {
+  height: calc(100vh - 76px) !important;
 }
