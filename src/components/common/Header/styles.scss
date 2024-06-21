@@ -27,15 +27,13 @@
     color: #fdcb6e;
   }
 
-  header {
-    width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   nav {
     height: 76px !important;
   }
+
+  width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .ant-layout-header {
